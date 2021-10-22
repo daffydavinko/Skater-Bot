@@ -1,5 +1,5 @@
 // main.js
-// DaffyDavinko
+// @ daffydavinko
 // August 3, 2021
 
 require('dotenv').config()
@@ -28,6 +28,7 @@ for(const file of commandFiles){
     client.commands.set(command.name, command);
 }
 
+// MESSAGE LOOP
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
