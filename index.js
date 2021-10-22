@@ -1,4 +1,4 @@
-// main.js
+// index.js
 // @ daffydavinko
 // August 3, 2021
 
